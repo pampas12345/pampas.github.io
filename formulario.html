@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuestionario: Videojuegos en los Niños</title>
+</head>
+<body style="background-image: url('fondo.jpg'); background-size: cover; background-repeat: no-repeat;">
+
+    <h2 id="formulario"><u>Tu puedes contestar:)</u></h2>
+  <h1 style="text-align: center; color: #2c3e50;">¿Cómo afectan los videojuegos en los niños?</h1>
+
+  <p style="text-align: justify; color: #444;">
+    Los videojuegos pueden influir positiva o negativamente en los niños, dependiendo del tiempo que se les dedique y del tipo de juego. Mientras algunos ayudan a desarrollar habilidades cognitivas y sociales, otros pueden causar sedentarismo, aislamiento o bajo rendimiento escolar si se usan en exceso. El equilibrio es clave para que los videojuegos sean una herramienta educativa y de entretenimiento saludable.
+  </p>
+
+  <p style="color: #555;">
+    <strong>Conclusión:</strong> Los videojuegos no son malos por sí solos; usados con control y responsabilidad, pueden aportar beneficios importantes al desarrollo de los niños.
+  </p>
+
+  <hr>
+
+  <h2 style="color: #2c3e50;">📝 Cuestionario</h2>
+
+  <form>
+
+    <!-- Pregunta 1 -->
+    <label><strong>1. ¿Cuántas horas al día juegas videojuegos?</strong></label><br>
+    <input type="radio" name="horas" value="menos1"> Menos de 1 hora<br>
+    <input type="radio" name="horas" value="1a2"> Entre 1 y 2 horas<br>
+    <input type="radio" name="horas" value="mas2"> Más de 2 horas<br><br>
+
+    <!-- Pregunta 2 -->
+    <label><strong>2. ¿Qué tipo de videojuegos juegas más?</strong></label><br>
+    <select name="tipo">
+      <option value="accion">Acción</option>
+      <option value="aventura">Aventura</option>
+      <option value="educativos">Educativos</option>
+      <option value="deportes">Deportes</option>
+      <option value="otros">Otros</option>
+    </select><br><br>
+
+    <!-- Pregunta 3 -->
+    <label><strong>3. ¿Crees que los videojuegos te han ayudado en algo positivo?</strong></label><br>
+    <input type="radio" name="positivo" value="si"> Sí<br>
+    <input type="radio" name="positivo" value="no"> No<br><br>
+
+    <!-- Pregunta 4 -->
+    <label><strong>4. ¿Cuánto estás de acuerdo con esta frase?: "Los videojuegos deben usarse con moderación".</strong></label><br>
+    <input type="range" name="acuerdo" min="1" max="5">
+    <small>1 = Nada de acuerdo | 5 = Muy de acuerdo</small><br><br>
+
+    <!-- Pregunta 5 -->
+    <label><strong>5. ¿Qué opinas tú sobre los videojuegos y los niños?</strong></label><br>
+    <textarea name="opinion" rows="5" cols="40" placeholder="Escribe tu opinión aquí..."></textarea><br><br>
+
+    <input type="submit" value="Enviar respuestas">
+  </form>
+  <a href="index.html">
+    <button>Volver a la página principal</button>
+  </a>
+
+</body>
+</html>
